@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Blagues</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+        <a id="logo-container" href="index.html" class="brand-logo">Blagues</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">RETOUR</a></li>
+        </ul>
+        
+        <ul id="nav-mobile" class="sidenav">
+            <li><a href="index.html">RETOUR</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
+    <div id="index-banner" class="teal" style="padding-bottom: 20px;"> <!-- parallax-container  -->
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row">
+                    <h1 class="header center teal-text text-lighten-4">Catégories</h1>
+                    <div class="col s12 center">
+                        <ul id="categories" class="tabs"></ul>
+                        <div id="categorie"></div>
+
+                        <!-- <ul id="tabs-swipe-demo" class="tabs">
+                            <li class="tab col s3"><a href="#test-swipe-1">Catégorie 1</a></li>
+                            <li class="tab col s3"><a href="#test-swipe-2">Catégorie 2</a></li>
+                            <li class="tab col s3"><a href="#test-swipe-3">Catégorie 3</a></li>
+                            <li class="tab col s3"><a href="#test-swipe-4">Catégorie 4</a></li>
+                        </ul>
+                        <div id="test-swipe-1" class="col s12 red lighten-4">
+                            <br>Catégorie 1 
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint facilis pariatur eius, earum ea tenetur illo iusto fugiat cumque cupiditate molestiae nemo laboriosam, quisquam totam similique. Pariatur laborum voluptas sit.</p>
+                        </div>
+                        <div id="test-swipe-2" class="col s12 pink lighten-4">
+                            <br>Catégorie 2 
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, ducimus adipisci deserunt harum dolorum quia sunt dicta, quo, ab optio officiis temporibus repellat totam. Perspiciatis quaerat consequatur maxime soluta ipsum.</p>
+                        </div>
+                        <div id="test-swipe-3" class="col s12 purple lighten-4">
+                            <br>Catégorie 3 
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias laudantium ipsa eos quaerat quam, sunt laborum, beatae quos consequatur officia dolorum qui omnis iusto animi cum quidem magnam quisquam illum!</p>
+                        </div>
+                        <div id="test-swipe-4" class="col s12 indigo lighten-4">
+                            <br>Catégorie 4 
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, illo obcaecati similique necessitatibus assumenda libero cum maiores magnam eligendi aperiam officiis sit sequi blanditiis totam explicabo dolores. Inventore, itaque deserunt!</p>
+                        </div> -->
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="index-banner" class="parallax-container">
+        <div class="parallax"><img src="background4.jpg" alt="Unsplashed background img 4"></div>
+    </div>
+
+    <footer class="page-footer teal">
+        <div class="footer-copyright">
+            <div class="container">
+            Made by <a class="brown-text text-lighten-3" href="http://www.technobel.be" target="_blank">Technobel</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/categories.js"></script>
+    <script>
+        // permet de cacher ou d'afficher les TABS des différentes catégories
+        $(document).ready(function(){
+            $('.tabs').tabs();
+        });
+    </script>
+    </body>
+</html>
