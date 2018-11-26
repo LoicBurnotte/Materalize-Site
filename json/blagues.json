@@ -1,0 +1,86 @@
+{ 
+"Blague" : [ 
+    {
+    "Id" : "1",    
+    "Categorie": 
+        {
+            "Id" : "1",
+            "Nom": "Blague courte"
+        },
+        "Titre" : "Professeur ",
+        "Contenu" : 
+        "L'inspecteur du Ministère de l'Education demande à un candidat de l'iufm : 'Pouvez-vous me donner 3 raisons qui vous motivent à devenir instituteur ? Le candidat répond : décembre, juillet et août.",
+        "Date" : 
+            {
+            "Jour" : "14", "Mois" : "08","Annee" : "2009"
+            }, 
+              
+        "Auteur" :
+            {
+            "Nom" : "Coppin", "Prenom" : "Julien"
+            }
+            
+    },
+    {
+        "Id" : "2",
+        "Categorie":  
+            {
+                "Id" : "2",
+                "Nom": "Blague Second degrée"
+            },
+            "Titre" : "Belle-Mère",
+            "Contenu" : "Le pharmacien au client: - Ah non monsieur, je ne peux pas vous donner de l'arsenic comme ça, il vous faut une ordonnance! - Et si je vous montre la photo de ma belle-mère, ça va? ",
+            "Date" : 
+                {
+                "Jour" : "10", "Mois" : "01","Annee" : "2014"
+                }, 
+                
+            "Auteur" : 
+                {
+                "Nom" : "Trump", "Prenom" : "Donald"
+                }
+                
+    },
+    {
+        "Id" : "3",
+        "Categorie":  
+            {
+                "Id" : "3",
+                "Nom": "Blague Enfant"
+            },
+            "Titre" : "Cendrillon",
+            "Contenu" : "Comment est morte Cendrillon ? Son Tampax s'est transforme en citrouille... ",
+            "Date" : 
+                {
+                "Jour" : "21", "Mois" : "07","Annee" : "2016"
+                }, 
+                
+            "Auteur" : 
+                {
+                "Nom" : "Nicolas", "Prenom" : "Tonton"
+                }
+                
+    },
+    {
+        "Id" : "4",
+        "Categorie":  
+            {
+                "Id" : "4",
+                "Nom": "Blague Folle"
+            },
+            "Titre" : "Avion du Président",
+            "Contenu" : "Deux fous se promènent. Soudain ils lèvent la tête pour regarder un avion. - Ah, je le reconnais dit l'un, c'est l'avion du Président. - T'es fou, on aurait vu passer les motards !",
+            "Date" : 
+                {
+                "Jour" : "16", "Mois" : "05","Annee" : "2008"
+                }, 
+                
+            "Auteur" : 
+                {
+                "Nom" : "Flament", "Prenom" : "Aurelie"
+                }
+                    
+    }
+    
+]
+}

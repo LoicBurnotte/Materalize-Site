@@ -1,0 +1,22 @@
+{    
+    "Categorie":[
+        {
+            "Id" : "1",
+            "Nom": "Blague courte"
+        },             
+
+        {
+            "Id" : "2",
+            "Nom": "Blague Second degrée"
+        },           
+
+        {
+            "Id" : "3",
+            "Nom": "Blague Enfant"
+        },                    
+
+        {
+            "Id" : "4",
+            "Nom": "Blague Folle"
+        }]                            
+}
